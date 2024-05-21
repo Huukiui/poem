@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    display: inline;
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    .navbar-list {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+  .navbar-item:hover {
+    background-color: white; /* Змінюємо колір фону кнопки при наведенні на неї */
+    color: black; /* Змінюємо колір тексту на білий при наведенні на кнопку */
+  }
+  .navbar-item:hover a {
+    color: black; /* Змінюємо колір тексту на чорний при наведенні на елемент a у .navbar-item */
+  }

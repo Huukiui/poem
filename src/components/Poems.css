@@ -1,0 +1,25 @@
+.poems {
+  padding: 1rem;
+  background-color: black;
+  min-height: 100vh; /* Задаємо мінімальну висоту контейнера на всю висоту екрану */
+  display: flex;
+  flex-direction: column; /* Встановлюємо напрямок розташування елементів у стовпчик */
+}
+
+.poem-slide {
+  padding: 1rem;
+  background: #f5f5f5;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+@media (max-width: 600px) {
+  .poem-slide {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+.poems h3 {
+  color: white; /* Змінюємо колір тексту на білий */
+}

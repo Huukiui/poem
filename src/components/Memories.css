@@ -1,0 +1,7 @@
+.memories {
+    padding: 1rem;
+    background-color: wheat;
+    min-height: 100vh; /* Задаємо мінімальну висоту контейнера на всю висоту екрану */
+    display: flex;
+    flex-direction: column; /* Встановлюємо напрямок розташування елементів у стовпчик */
+  }
